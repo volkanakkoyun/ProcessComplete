@@ -22,10 +22,10 @@ namespace ProcessComplete
         private void FrmMain_Load(object sender, EventArgs e)
         {
             p = new Process();
-            p.ProcessCompleted += ProcessComlate;
+            p.ProcessCompleted += ProcessComlete;
         }
 
-        public static void ProcessComlate(object sender, EventArgs e)
+        public static void ProcessComlete(object sender, EventArgs e)
         {
             MessageBox.Show("Process completed");
         }
